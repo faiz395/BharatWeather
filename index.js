@@ -4,9 +4,9 @@ const apiKey = '5ac37f376a734c6eafc72639240807';
 // http://api.weatherapi.com/v1/forecast.json?key=5ac37f376a734c6eafc72639240807&q=mumbai&days=3
 
 let city = 'mumbai';
-let reportUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}`
-let historyReportUrl = `http://api.weatherapi.com/v1/history.json?key=${apiKey}`
-let futureReportUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}`
+let reportUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}`
+let historyReportUrl = `https://api.weatherapi.com/v1/history.json?key=${apiKey}`
+let futureReportUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}`
 let sunTiming = `https://api.sunrisesunset.io/json`;
 
 // https://api.sunrisesunset.io/json?lat=18.98&lng=72.83
